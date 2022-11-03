@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кодировщик</title>
+</head>
+
+<body>
+    
+    <header>
+        <div class="kartinka">
+            <img src="images/jak52.jpg" width="100%" height="200px" title="Як-52" alt="тут фото Як-52">
+            <div class="tekst_sverhu_kartinki">Шифратор - Дешифратор!</div>
+        </div>	  		
+    </header>    
+        
+    <section class="form-wrapper">
+        <hr>
+        <form action="send.php" method="post"> 
+            <div class="form-control-wrapper">
+                <label for="text">Ваш текст :</label>
+                <textarea class="form-control" id="text" name="text" rows="10" placeholder="текст" title="Наберите ваш текст" required></textarea>
+            </div>
+            <div class="form-control-wrapper">
+                <label for="em">Ваш почтовый ящик :</label>
+                <input type="email" class="form-control" id="em" name="email" placeholder="введите ваш е-мэил" title="ведите ваш э-мэйл" required>
+            </div>
+            <input type="submit" class="form-submit" value="Отправить" title="Для отправки вашего текста нажмите кнопку">
+        </form>
+    </section>    
+</body>
+</html>
